@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="测试套件: ">
+<!--    <test name="test1">-->
+<!--        <classes>-->
+<!--            <class name="com.testng.test.TestNGSimpleTest"/>-->
+<!--            <class name="com.testng.POJO.TestEmployeeDetails"></class>-->
+<!--            <class name="com.testng.test.TestNGSimpleTest"/>-->
+<!--            <class name="com.testng.performcode.TestngAnnotation"></class>-->
+<!--            <class name="com.testng.performtest.SampleTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="测试用例1">-->
+<!--        <classes>-->
+<!--            <class name="com.testng.suitetest.Test1"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="测试用例2">-->
+<!--        <classes>-->
+<!--            <class name="com.testng.suitetest.Test2"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    通过标签选择要执行的测试类-->
+<!--    <test name="测试用例">-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="functest"></include>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.testng.zutest.GroupTestExample"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    组中组-->
+<!--    <test name="test1">-->
+<!--        <groups>-->
+<!--            <define name="all">-->
+<!--                <include name="functest"></include>-->
+<!--                <include name="checkintest"></include>-->
+<!--            </define>-->
+<!--            <run>-->
+<!--                <include name="all"></include>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.testng.zutest.GroupTestExample"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    排斥组-->
+<!--    <test name="test">-->
+<!--        <groups>-->
+<!--            <define name="all">-->
+<!--                <include name="checkintest"></include>-->
+<!--            </define>-->
+<!--            <run>-->
+<!--                <include name="all"></include>-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="com.testng.zutest.GroupTestExample"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    
+<!--    异常测试-->
+    <test name="test">
+        <classes>
+            <class name="com.testng.exceptions.ExpectedExceptionTest"></class>
+        </classes>
+    </test>
+</suite>

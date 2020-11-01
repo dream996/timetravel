@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [测试套件: ]" guice-stage="DEVELOPMENT">
+  <test name="test(failed)">
+    <classes>
+      <class name="com.testng.exceptions.ExpectedExceptionTest">
+        <methods>
+          <include name="testSalutationMessage"/>
+        </methods>
+      </class> <!-- com.testng.exceptions.ExpectedExceptionTest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [测试套件: ] -->
